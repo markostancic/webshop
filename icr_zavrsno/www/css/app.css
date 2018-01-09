@@ -1,0 +1,110 @@
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.example6 .navbar-brand{
+  background: url(images/logo.png) center / contain no-repeat;
+  width: 200px;
+}
+.navbar-form .input-group>.form-control {
+    color: white;
+    background-color: #555;
+    border: 1px solid #777;
+}
+.btn-search{
+  background-color: #555;
+  border: 1px solid #777;
+}
+
+.alert {
+  position: fixed;
+  bottom: 5px;
+  left:2%;
+  width: 96%;
+  z-index: 1000;
+}
+
+
+body { padding-top: 70px; }
+
+.form-signin .input-lg{
+  margin-bottom: 5pt;
+}
+
+/*Bootstrap button outline override*/
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #fff;
+}
+#gorivo{
+    margin-bottom: 15px;
+}
+.slika{
+    width:256px;
+    height:160px;
+}
+.strana{
+    text-align:center;
+}
+.slika1{
+    width:512px;
+    height:300px;
+}
+#proizvod{
+    width: 270px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding-bottom: 35px;
+}
+@media (max-width:768px){
+    #proizvod{
+        margin-top: 10px;
+        margin-right: 255px;
+        padding-bottom: 35px;
+        
+    }
+    #polje{
+        margin-left: 150px;
+    }
+    #polje2{
+        margin-left: 50px;
+    }
+    #korpa{
+        margin-bottom: 20px;
+    }
+}
+
